@@ -1,0 +1,35 @@
+.headerTop {
+    padding: 20px 0px;
+    &.active{
+        background-color: #aaa;
+    }
+    .logoArea{
+        width: 150px;
+        .logoImage{
+            width: 100%;
+        }
+    }
+    .searchArea{
+        // input{
+        //     height: 10px;
+        //     font-size: 16px;
+        //     align-items: center;
+        //     display: flex;
+        //     align-items: center;
+
+        // }
+    }
+    .iconArea{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        span{
+            margin-left: 20px;
+            color: #656464;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}
